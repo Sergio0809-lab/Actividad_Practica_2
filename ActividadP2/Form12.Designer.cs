@@ -1,6 +1,6 @@
 ﻿namespace ActividadP2
 {
-    partial class Form3
+    partial class Form12
     {
         /// <summary>
         /// Required designer variable.
@@ -28,45 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            dateTimePicker1 = new DateTimePicker();
             button1 = new Button();
+            label1 = new Label();
             SuspendLayout();
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(33, 23);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(250, 27);
+            dateTimePicker1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(283, 114);
+            button1.Name = "button1";
+            button1.Size = new Size(181, 29);
+            button1.TabIndex = 1;
+            button1.Text = "Mostrar fecha";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(344, 128);
+            label1.Location = new Point(435, 28);
             label1.Name = "label1";
-            label1.Size = new Size(100, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Texto original";
+            label1.Size = new Size(50, 20);
+            label1.TabIndex = 2;
+            label1.Text = "label1";
             // 
-            // button1
-            // 
-            button1.Location = new Point(303, 247);
-            button1.Name = "button1";
-            button1.Size = new Size(184, 29);
-            button1.TabIndex = 1;
-            button1.Text = "Cambiar texto";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // Form3
+            // Form12
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
             Controls.Add(label1);
-            Name = "Form3";
-            Text = "Form3";
+            Controls.Add(button1);
+            Controls.Add(dateTimePicker1);
+            Name = "Form12";
+            Text = "Form12";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private DateTimePicker dateTimePicker1;
         private Button button1;
+        private Label label1;
     }
 }

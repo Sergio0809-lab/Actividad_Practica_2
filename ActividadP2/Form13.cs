@@ -10,16 +10,19 @@ using System.Windows.Forms;
 
 namespace ActividadP2
 {
-    public partial class Form3 : Form
+    public partial class Form13 : Form
     {
-        public Form3()
+        public Form13()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "texto cambiado";
+            float temperatur_C= float.Parse(textBox1.Text);
+            double temperatur_F = (temperatur_C * 1.8) + 32;
+            label1.Text = temperatur_F.ToString();
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ActividadP2
 {
-    partial class Form3
+    partial class Form7
     {
         /// <summary>
         /// Required designer variable.
@@ -28,45 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            comboBox1 = new ComboBox();
             button1 = new Button();
             SuspendLayout();
             // 
-            // label1
+            // comboBox1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(344, 128);
-            label1.Name = "label1";
-            label1.Size = new Size(100, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Texto original";
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Rojo", "Azul", "Morado" });
+            comboBox1.Location = new Point(29, 51);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(151, 28);
+            comboBox1.TabIndex = 0;
             // 
             // button1
             // 
-            button1.Location = new Point(303, 247);
+            button1.Location = new Point(45, 106);
             button1.Name = "button1";
-            button1.Size = new Size(184, 29);
+            button1.Size = new Size(125, 29);
             button1.TabIndex = 1;
-            button1.Text = "Cambiar texto";
+            button1.Text = "Cambiar color";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // Form3
+            // Form7
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
-            Controls.Add(label1);
-            Name = "Form3";
-            Text = "Form3";
+            Controls.Add(comboBox1);
+            Name = "Form7";
+            Text = "Form7";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private ComboBox comboBox1;
         private Button button1;
     }
 }

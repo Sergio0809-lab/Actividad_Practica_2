@@ -16,5 +16,14 @@ namespace ActividadP2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int number1=int.Parse(textBox1.Text);
+            int number2=int.Parse(textBox2.Text);
+            int resultado =number1+number2;
+            label1.Text = resultado.ToString();
+
+        }
     }
 }

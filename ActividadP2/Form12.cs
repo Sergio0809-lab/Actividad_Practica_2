@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace ActividadP2
 {
-    public partial class Form3 : Form
+    public partial class Form12 : Form
     {
-        public Form3()
+        public Form12()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "texto cambiado";
+            label1.Text = dateTimePicker1.Text;
         }
     }
 }

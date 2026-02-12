@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace ActividadP2
 {
-    public partial class Form3 : Form
+    public partial class Form14 : Form
     {
-        public Form3()
+        public Form14()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "texto cambiado";
+            progressBar1 = new ProgressBar();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

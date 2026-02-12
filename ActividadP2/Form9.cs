@@ -10,16 +10,23 @@ using System.Windows.Forms;
 
 namespace ActividadP2
 {
-    public partial class Form3 : Form
+    public partial class Form9 : Form
     {
-        public Form3()
+        int contador = 0;
+        public Form9()
         {
             InitializeComponent();
         }
 
+        private void Form9_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "texto cambiado";
+            contador++;
+            label1.Text = contador.ToString();
         }
     }
 }

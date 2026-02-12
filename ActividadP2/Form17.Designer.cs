@@ -1,6 +1,6 @@
 ﻿namespace ActividadP2
 {
-    partial class Form2
+    partial class Form17
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(125, 191);
-            label1.Name = "label1";
-            label1.Size = new Size(490, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Bienvenido al formulario de  Sergio D. Perez Y Matricula : MT-202400627";
-            label1.Click += label1_Click;
-            // 
-            // Form2
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
-            Name = "Form2";
-            Text = "Form2";
-            ResumeLayout(false);
-            PerformLayout();
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form17";
         }
 
         #endregion
-
-        private Label label1;
     }
 }

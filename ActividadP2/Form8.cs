@@ -10,16 +10,17 @@ using System.Windows.Forms;
 
 namespace ActividadP2
 {
-    public partial class Form3 : Form
+    public partial class Form8 : Form
     {
-        public Form3()
+        public Form8()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "texto cambiado";
+            listBox1.Items.Add(textBox1.Text);
+            textBox1.Clear();
         }
     }
 }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ActividadP2
 {
-    public partial class Form3 : Form
+    public partial class Form15 : Form
     {
-        public Form3()
+        public Form15()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            label1.Text = "texto cambiado";
         }
     }
 }

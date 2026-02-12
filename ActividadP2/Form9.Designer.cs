@@ -1,6 +1,6 @@
 ﻿namespace ActividadP2
 {
-    partial class Form3
+    partial class Form9
     {
         /// <summary>
         /// Required designer variable.
@@ -28,45 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             button1 = new Button();
+            label1 = new Label();
             SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(318, 186);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 0;
+            button1.Text = "contar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(344, 128);
+            label1.Location = new Point(329, 116);
             label1.Name = "label1";
-            label1.Size = new Size(100, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Texto original";
+            label1.Size = new Size(83, 20);
+            label1.TabIndex = 1;
+            label1.Text = "mostrardor";
             // 
-            // button1
-            // 
-            button1.Location = new Point(303, 247);
-            button1.Name = "button1";
-            button1.Size = new Size(184, 29);
-            button1.TabIndex = 1;
-            button1.Text = "Cambiar texto";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // Form3
+            // Form9
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
             Controls.Add(label1);
-            Name = "Form3";
-            Text = "Form3";
+            Controls.Add(button1);
+            Name = "Form9";
+            Text = "Form9";
+            Load += Form9_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
         private Button button1;
+        private Label label1;
     }
 }

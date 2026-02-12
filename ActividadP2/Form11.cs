@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace ActividadP2
 {
-    public partial class Form3 : Form
+    public partial class Form11 : Form
     {
-        public Form3()
+        public Form11()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "texto cambiado";
+            MessageBox.Show("Hola, Soy Sergio y mi matricula es MT-2024-00627");
         }
     }
 }
