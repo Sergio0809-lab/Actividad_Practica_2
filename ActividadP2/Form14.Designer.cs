@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             progressBar1 = new ProgressBar();
             button1 = new Button();
             button2 = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // progressBar1
@@ -60,6 +62,10 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
             // Form14
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -78,5 +84,6 @@
         private ProgressBar progressBar1;
         private Button button1;
         private Button button2;
+        private System.Windows.Forms.Timer timer1;
     }
 }
